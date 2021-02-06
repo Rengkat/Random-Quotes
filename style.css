@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Langar&display=swap");
+/* font-family: 'Acme', sans-serif;
+font-family: 'Langar', cursive; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #3aafa9;
+}
+.container {
+  width: 70%;
+  height: 50vh;
+  margin: 7rem auto 1rem auto;
+  text-align: center;
+  color: #fff;
+  background-color: #17252a;
+  padding: 3rem;
+  box-shadow: 0px 0px 2px 3px black;
+  border-radius: 5px;
+}
+.quotes {
+  margin: 1rem auto 3.5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100px;
+  line-height: 1.9rem;
+  font-family: "Acme", sans-serif;
+  font-size: 1.5rem;
+  word-spacing: 3px;
+}
+
+#btn {
+  background-color: #86c232;
+  /* display: inline-block; */
+  color: white;
+  border: 1px solid white;
+  outline: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 0px 12px black;
+}
+footer {
+  text-align: center;
+  font-family: "Langar", cursive;
+}
